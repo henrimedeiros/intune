@@ -7,8 +7,8 @@ function Create-App {
 
     $appPayload = @{
         "@odata.type" = "#microsoft.graph.win32LobApp"
-        displayName = "Dreikom Cloud Phone 2"
-        description = "Dreikom Cloud Phone 2"
+        displayName = "Dreikom Cloud Phone"
+        description = "Dreikom Cloud Phone"
         publisher = "wwcom"
         fileName = $xml.ApplicationInfo.FileName
         setupFilePath = $xml.ApplicationInfo.SetupFile
